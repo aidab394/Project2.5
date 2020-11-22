@@ -1,0 +1,496 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+.hero-bkg-animated
+{
+	background: #e9f3fa url(blue-snow2.png) repeat 0 0;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	height: 100%;
+	padding-top: 35px;
+	box-sizing: border-box;
+	-webkit-animation: slide 20s linear infinite;
+}
+@-webkit-keyframes slide 
+{
+	from 
+	{
+		background-position: 0 0; 
+	}
+	to 
+	{ 
+		background-position: -400px 0; 
+	}
+}
+.container
+{
+	background-color: #a8bdf0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Amethysta";
+	max-width: 100%;
+	margin: auto;
+	color: #211E21; 
+	font-size: 15px;
+}
+article
+{
+	padding-top: 0;
+}
+a
+{
+	color: #000000;
+}
+a:link
+{
+	color: #000000;
+}
+a:visited
+{
+	color: #000000;
+}
+a:hover
+{
+	color: #E9E9E9;
+}
+a:active
+{
+	color: #E9E9E9;
+}
+h2
+{
+	text-align: center;
+	font-family: "Sofia";
+	font-size: 35pt;
+	color: white;
+	font-style: none;
+	text-shadow: -4px 4px 10px #29487D;
+}
+nav.icon-bar
+{
+	width: 100%;
+	overflow: auto;
+	display: table;
+}
+nav.icon-bar a
+{
+	text-align: center;
+	width: 12.5%;
+	float: left;
+	padding: 12px 0;
+	color: #4464A7;
+	transition: all 0.3s ease;
+	font-size: 40px;
+	text-decoration: none;
+	text-shadow: -4px 7px 20px white;
+}
+nav.icon-bar a:hover
+{
+	background-color: rgba(250, 250, 250, 0.7);
+}
+a.caption
+{
+	color: #4464A7;
+	font-style: bold;
+	text-decoration: none;
+	text-shadow: -4px 7px 20px white;
+	-webkit-text-stroke: none #9CB2CE;
+}
+img.banner
+{
+	display: block;
+	margin: auto;
+	padding: 0.5em;
+	border: solid 2.5px #4464A7;
+	width: 100%;
+}
+figcaption.banner
+{
+	font-family: "Amethysta";
+	font-size: 15pt;
+	color: #D4D8E8;
+	font-style: bold;
+	text-shadow: -4px 4px 10px #9CB2CE;
+	-webkit-text-stroke: none #9CB2CE;
+}
+article
+{
+	border: solid 2.5px #4464A7;
+}
+section
+{
+	border-bottom: solid 2.5px #4464A7;
+}
+section#coninfo
+{
+	border-bottom: none;
+}
+section#languages
+{
+	padding-bottom: 1%;
+}
+div.iconcenter
+{
+	font-size: 50px;
+	color: #4464A7;
+	transition: all 0.3s ease;
+	background-color: none;
+	text-align: center;
+	padding-top: 2%;
+}
+blockquote.bio
+{
+	text-align: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+hr
+{
+	border: 1px solid #4464A7;
+}
+div.table
+{
+	display: table;
+	width: 100%;
+	text-align: center;
+	padding: none;
+	margin: auto;
+}
+div.body
+{
+	display: table-row-group;
+}
+div.row
+{
+	display: table-row;
+}
+div.heading-group
+{
+	font-size: 50px;
+	color: #4464A7;
+	transition: all 0.3s ease;
+	background-color: none;
+	display: table-row;
+}
+div.title
+{
+	font-weight: bold;
+	font-size: 17px;
+	background-color: #4464A7;
+	color: #fefefe;
+	display: table-row;
+	padding: none;
+}
+div.cell
+{
+	display: table-cell;
+	padding: 0.5%;
+	width: 25%;
+}
+abbr
+{
+	text-decoration: none;
+}
+div.projects
+{
+	display: table;         
+	width: 100%;
+	text-align: center;
+}
+div.proj-row
+{
+	display: table-row;
+	width: 100%;
+	clear: both;
+}
+div.proj-col
+{
+	float: left;
+	display: table-column;   
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+}
+img.projects
+{
+	max-width: 300px;
+}
+div.hov
+{
+	position: relative;
+}
+div.hov img
+{
+	transition: all 0.3s ease;
+	backface-visibility: hidden;
+}
+/*
+div.hov img:hover
+{
+	opacity: 0.3;
+}*/
+div.meeting
+{
+	position: relative;
+	text-align: center;
+}
+div.meeting:hover .box
+{
+	opacity: 0.9;
+	transition: 0.3s ease;
+}
+div.meeting:hover img
+{
+	opacity: 0.3;
+}
+div.hov .box
+{
+	opacity: 0;
+	text-align: center;
+}
+div.hov .text
+{
+	color: #fefefe;
+	background-color: #3C5898;
+	padding: 2%;
+	position: absolute;
+	top: 33%;
+}
+div.hov .text a:hover
+{
+	color: #fefefe;
+}
+.progress 
+{
+  border-radius: 4px; 
+  width: 70%;
+  height: 10px;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+.progress-bar-striped
+{
+	background-color: #3C5898;
+}
+nav.cont-bar
+{
+	width: 100%;
+	overflow: auto;
+}
+nav.cont-bar a
+{
+	text-align: center;
+	float: left;
+	width: 16.65%;
+	padding: 12px 0;
+	color: #4464A7;
+	transition: all 0.3s ease;
+	font-size: 40px;
+	text-decoration: none;
+	font-style: bold;
+	text-decoration: none;
+	text-shadow: -4px 7px 20px white;
+	-webkit-text-stroke: 0pt #9CB2CE;
+}
+nav.cont-bar a:hover
+{
+	background-color: rgba(250, 250, 250, 0.7);
+}
+
+div.home-ico a
+{
+	font-style: bold;
+	text-decoration: none;
+	text-shadow: -4px 7px 20px white;
+	-webkit-text-stroke: 0pt #9CB2CE;
+}
+p.home-ico
+{
+	text-align: center;
+	font-style: bold;
+	text-shadow: -4px 7px 20px white;
+}
+p.home-ico a
+{
+	padding: 12px 0;
+	color: #4464A7;
+	transition: all 0.3s ease;
+	font-size: 40px;
+	text-decoration: none;
+}
+div.address
+{
+	display: table;         
+	width: 100%;
+	text-align: center;
+}
+div.address-row
+{
+	display: table-row;
+	width: 100%;
+	clear: both;
+}
+div.map
+{
+	display: inline;
+}
+div.address-col
+{
+	float: left;
+	display: table-column;
+	width: 49.5%;
+	color: #211E21;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	padding-left: 0.10%;
+	padding-right: -0.7%;
+	margin-right: 0.25%;
+}
+div.address-col:hover
+{
+	background: #D4D8E8;
+	color: #3C5898;
+}
+#conform
+{
+	border-bottom: none;
+}
+div.form
+{
+	border: solid 2px #4464A7;
+	margin: 0 auto;
+	position: relative;
+	width: 70%
+}
+form
+{
+	padding: 5%;
+	margin: 3% 0;
+}
+button
+{
+	overflow: visible;
+	text-transform: none;
+}
+input
+{
+	line-height: normal;
+}
+textarea
+{
+	overflow: auto;
+}
+input[type="text"], [type="email"], textarea
+{
+	background: none;
+	border: none;
+	border-bottom: solid 2px #4464A7;
+	color: #211E21;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Amethysta";
+	letter-spacing: 3px;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	width: 100%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+input[type="text"]:focus, [type="email"]:focus
+{
+	outline: none;
+	padding-bottom: 6%;
+}
+textarea:focus
+{
+	outline: none;
+	padding-bottom: 6%;
+}
+div.name
+{
+	float: left;
+	width: 45%;
+}
+div.surname
+{
+	float: right;
+	width: 45%;
+}
+div.phone
+{
+	line-height: 150%;
+	height: 150%;
+	resize: none;
+	width: 100%;
+}
+div.message
+{
+	float: none;
+}
+div.submit
+{
+	width: 35%;
+}
+input[type="submit"]
+{
+	background: none;
+	border: solid 2px #4464A7;
+	color: #211E21;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Amethysta";
+	font-size: 17px;
+	font-weight: bold;
+	outline: none;
+	padding: 20px 35px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+input[type="submit"]:hover
+{
+	background: #D4D8E8;
+	color: #211E21;
+}
+::-webkit-input-placeholder
+{
+	color: #211E21;
+}
+:-moz-placeholder
+{ 
+	color: #211E21;
+	opacity: 1;
+}
+::-moz-placeholder
+{
+	color: #211E21;
+	opacity: 1;
+}
+:-ms-input-placeholder
+{
+	color: #211E21;
+}
+footer
+{
+	color: #211E21;
+	text-align: center;
+}
