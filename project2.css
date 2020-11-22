@@ -172,6 +172,7 @@ div.body
 div.row
 {
 	display: table-row;
+	width: 100%;
 }
 div.heading-group
 {
@@ -180,6 +181,7 @@ div.heading-group
 	transition: all 0.3s ease;
 	background-color: none;
 	display: table-row;
+	width: 100%;
 }
 div.title
 {
@@ -189,6 +191,7 @@ div.title
 	color: #fefefe;
 	display: table-row;
 	padding: none;
+	width: 100%;
 }
 div.cell
 {
